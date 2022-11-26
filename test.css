@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 2000px;
+
+}
+header
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    transition: all ease-in 0.5s;
+}
+ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    opacity: 0;
+    transition: all ease-in 2s;
+}
+header.sticky ul li a
+{
+  opacity: 1;
+  
+}
+header.sticky
+{
+    background-color: red;
+    transition: all ease-in 0.5s;
+}

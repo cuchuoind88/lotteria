@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+ <header id="header">
+  <div class="header_background"></div>
+  <nav class="container loteria_nav">
+      <div class="logo">
+        <img src="./image/lotteria_logo.svg" alt="">
+      </div>
+      <ul class="top-nav">
+        <li class="nav-item"> <a href="">Khuyến mãi</a>
+          <div class="line"></div>
+        </li>
+        <li class="nav-item"><a href="">Đặt hàng</a></li>
+        <li class="nav-item"><a href="">Sinh nhật</a></li>
+        <li class="nav-item"><a href="">Cửa hàng</a></li>
+      </ul>
+      <div class="right-content">
+        <div class="block-language-dowload">
+          <div class="vietnam">
+            <img src="./image/VN-Vietnam-Flag-icon.png" alt="" class="icon_vietnam_dowload">
+            <select name="" id="language">
+              <option value="VietNam">Tiếng Việt</option>
+              <option value="English">Tiếng Anh</option>
+            </select>
+          </div>
+            <div class="block-dowload">
+               <img src="./image/unnamed.png" alt="" class="icon_vietnam_dowload">
+               <a href="#" class="dowload_app">Dowload App</a>
+            </div>
+        </div>
+        <div class="block-info">
+           <ul class="account-menu">
+            <li class="menu_item">
+              <a href="#">
+                <span class="icon"><img src="./image/icon-pos-2.svg" alt=""></span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#">
+                <span class="icon"><img src="./image/icon-myaccount.svg" alt=""></span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#">
+                <span class="icon"><img src="./image/icon-notification.svg" alt=""></span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#">
+                <span class="icon"><img src="./image/icon-cart.svg" alt=""></span>
+              </a>
+            </li>
+           </ul>
+        </div>
+      </div>
+  </nav>
+ </header>
+ <!--Carousel-->
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ul class="carousel-indicators ">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"   aria-label="Slide 3"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"  aria-label="Slide 4"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./image/1.jpg" class="d-block w-100"  alt="banner1">
+    </div>
+    <div class="carousel-item">
+      <img src="./image/2.jpg" class="d-block w-100"  alt="banner2">
+    </div>
+    <div class="carousel-item">
+      <img src="./image/3.jpg" class="d-block w-100"  alt="banner3">
+    </div>
+    <div class="carousel-item">
+      <img src="./image/4.jpg" class="d-block w-100"  alt="banner4">
+    </div>
+  </div>
+  
+</div>
+<!--BODY MAIN-->
+<div class="main">
+  <div class="container">
+    <div class="inner_image ">
+      <!--Image Dyamic-->
+      <a href="#">
+        <object data="./image/icon-staff.svg" type="image/svg+xml">
+          
+          <img src="./image/icon-staff.gif" alt="">
+
+        </object>
+      </a>
+    </div>
+    <!--Cate Menu List-->
+     <div >
+       <ul class="cate-menu-list">
+         <li class="cate-menu-item">
+          <p id="khuyenmai">
+            <span class="img">
+              <img src="./image/Promotion-01_1.jpg" alt="menu_1">
+          </span>
+          <span class="text">
+            Khuyến mãi
+          </span>
+        </p>
+         
+         </li>
+         <li class="cate-menu-item">
+          <p id="garan">
+            <span class="img">
+              <img src="./image/Menu_2.jpg" alt="menu_2">
+          </span>
+          <span class="text">
+            Gà Rán
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p id="garanplus">
+            <span class="img">
+              <img src="./image/Menu_3.jpg" alt="menu_3">
+          </span>
+          <span class="text">
+            Gà Rán Phần
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p href="#" title="Burger">
+            <span class="img">
+              <img src="./image/Menu_4.jpg" alt="menu_4">
+          </span>
+          <span class="text">
+            Burger
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p href="#" title="Combo">
+            <span class="img">
+              <img src="./image/Menu_5.jpg" alt="menu_5">
+          </span>
+          <span class="text">
+            Combo
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p href="#" title="Value">
+            <span class="img">
+              <img src="./image/Menu_6.jpg" alt="menu_6">
+          </span>
+          <span class="text">
+            Value
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p href="#" title="Cơm - Mì Ý">
+            <span class="img">
+              <img src="./image/Menu_7.jpg" alt="menu_7">
+          </span>
+          <span class="text">
+            Cơm - Mì Ý
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p href="#" title="Thức ăn nhẹ">
+            <span class="img">
+              <img src="./image/Menu_8.jpg" alt="menu_8">
+          </span>
+          <span class="text">
+            Thức ăn nhẹ
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p href="#" title="Phần ăn nhóm">
+            <span class="img">
+              <img src="./image/BG-Menu-05_1.jpg" alt="menu_9">
+          </span>
+          <span class="text">
+            Phần ăn nhóm
+          </span>
+        </p>
+         
+         </li> <li class="cate-menu-item">
+          <p href="#" title="Thức uống">
+            <span class="img">
+              <img src="./image/Menu_10.jpg" alt="menu_10">
+          </span>
+          <span class="text">
+            Thức uống
+          </span>
+        </p>
+         
+         </li>
+       </ul>
+     </div>
+     <div class="loteria_sort">
+       <p>Sắp xếp theo</p>
+       <select name="" id="" class="sort_drop">
+        <option value="">Sản phẩm mới</option>
+        <option value="">Tên sản phẩm</option>
+       </select>
+     </div>
+     <div id="loading" ></div>
+     <!--Product-->
+     <div class="discount_item row g-4">
+      <div class="col-lg-3 col-md-3 product_chicken">
+          <div class="inner">
+              <div class="field_img" >
+                 <a href="#">
+                     <img src="./image/pack-534x374px_coupleset1 (1).png" alt="">
+                 </a>
+              </div>
+              <div class="name">
+                  <h5>
+                      Couple Set 1
+                  </h5>
+                  
+                  <a href="#">
+                      <img src="./image/heart.svg" alt="" class="icon_item">
+                  </a>
+              </div>
+               <div class="description">
+                  <p class="desc1">02 Gà rán</p>
+                  <p class="desc2">01 Burger Bulgogi</p>
+               </div>
+               <p class="price">
+                  129.000 đ
+               </p>
+               <button class="btn_add-to-cart">
+                  Thêm vào giỏ hàng
+               </button>
+     
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-3 product_chicken">
+          <div class="inner">
+              <div class="field_img" >
+                 <a href="#">
+                     <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/p/a/pack-534x374px_coupleset2_6.png" alt="">
+                 </a>
+              </div>
+              <div class="name">
+                  <h5>
+                      Couple Set 2
+                  </h5>
+                  
+                  <a href="#">
+                      <img src="./image/heart.svg" alt="" class="icon_item">
+                  </a>
+              </div>
+               <div class="description">
+                  <p class="desc1">02 Gà rán</p>
+                  <p class="desc2">01 Mì ý</p>
+               </div>
+               <p class="price">
+                  129.000 đ
+               </p>
+               <button class="btn_add-to-cart">
+                  Thêm vào giỏ hàng
+               </button>
+     
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-3 product_chicken">
+          <div class="inner">
+              <div class="field_img" >
+                 <a href="#">
+                     <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/p/a/pack-534x374px_loyset_1.png" alt="">
+                 </a>
+              </div>
+              <div class="name">
+                  <h5>
+                      LOY Set 
+                  </h5>
+                  
+                  <a href="#">
+                      <img src="./image/heart.svg" alt="" class="icon_item">
+                  </a>
+              </div>
+               <div class="description">
+                  <p class="desc1">02 Gà rán</p>
+                  <p class="desc2">01 Burger Bulgogi</p>
+               </div>
+               <p class="price">
+                  165.000 đ
+               </p>
+               <button class="btn_add-to-cart">
+                  Thêm vào giỏ hàng
+               </button>
+     
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-3 product_chicken">
+          <div class="inner">
+              <div class="field_img" >
+                 <a href="#">
+                     <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/p/a/pack-534x374px_lodyset_2.png" alt="">
+                 </a>
+              </div>
+              <div class="name">
+                  <h5>
+                      LODY Set
+                  </h5>
+                  
+                  <a href="">
+                      <img src="./image/heart.svg" alt="" class="icon_item">
+                  </a>
+              </div>
+               <div class="description">
+                  <p class="desc1">02 Gà rán</p>
+                  <p class="desc2">01 Burger Bulgogi</p>
+               </div>
+               <p class="price">
+                  189.000 đ
+               </p>
+               <button class="btn_add-to-cart">
+                  Thêm vào giỏ hàng
+               </button>
+     
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-3 product_chicken">
+        <div class="inner">
+            <div class="field_img" >
+               <a href="#">
+                   <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/p/a/pack-534x374px_lonyset_1.png" alt="">
+               </a>
+            </div>
+            <div class="name">
+                <h5>
+                    LONY Set
+                </h5>
+                
+                <a href="">
+                    <img src="./image/heart.svg" alt="" class="icon_item">
+                </a>
+            </div>
+             <div class="description">
+                <p class="desc1">03 Gà rán</p>
+                <p class="desc2">01 Burger Bulgogi</p>
+             </div>
+             <p class="price">
+                189.000 đ
+             </p>
+             <button class="btn_add-to-cart">
+                Thêm vào giỏ hàng
+             </button>
+   
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 product_chicken">
+      <div class="inner">
+          <div class="field_img" >
+             <a href="#">
+                 <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/p/a/pack-534x374px_lokingset_1.png" alt="">
+             </a>
+          </div>
+          <div class="name">
+              <h5>
+                  LOKING Set
+              </h5>
+              
+              <a href="">
+                  <img src="./image/heart.svg" alt="" class="icon_item">
+              </a>
+          </div>
+           <div class="description">
+              <p class="desc1">04 Gà rán</p>
+              <p class="desc2">01 Burger Bulgogi</p>
+           </div>
+           <p class="price">
+              239.000 đ
+           </p>
+           <button class="btn_add-to-cart">
+              Thêm vào giỏ hàng
+           </button>
+ 
+      </div>
+  </div>
+
+    </div>
+    
+  </div>
+  </div>
+</div>
+<!--Modal-->
+<div class="modal_lotteria">
+  <!--Modal_login_back-->
+  <div class="modal_login_back flex">
+    <div class="left_content">
+     <div class="modal_form_login">
+         
+          <h5 class="modal_form_header ">Đăng nhập hoặc tạo tài khoản</h5>
+          <div class="form_group">
+            <label for="email">Số điện thoại/Email</label>
+            <input type="text" id="email" name="email" placeholder="Nhập số điện thoại hoặc Email">
+          </div>
+         
+          <button type="submit" class="btn_buy">Tiếp tục</button>
+     </div>
+     <div>
+      <button class="btn_next">
+        Mua hàng không cần tài khoản
+      </button>
+     </div>
+     <div class="login_others">
+      <p class="text">hoặc Đăng nhập bằng</p>
+      <ul class="btn_list">
+        <li class="btn_item">
+          <button>
+            <img src="./image/icons8-facebook-64.png" alt="">
+            <span>FACEBOOK</span>
+          </button>
+         
+        </li>
+        <li class="btn_item">
+          <button>
+           <img src="./image/icons8-google-64.png" alt="">
+           <span>GOOGLE</span>
+          </button>
+          
+        </li>
+        <li class="btn_item">
+          <button>
+            <img src="./image/icons8-apple-logo-48.png" alt="">
+            <span>APPLE</span>
+          </button>
+   
+        </li>
+      </ul>
+     </div>
+    </div>
+    <div class="right_content">
+      <img src="./image/login-banner.jpg" alt="" class="right_content_img">
+      
+    </div>
+    <button class="btn_close_1">
+      <span>x</span>
+    </button>
+  </div>
+  <!--Modal_login-->
+  <div class="modal_login">
+    <div class="left_content">
+     <div class="modal_form_login">
+          <p class="btn_back">
+            
+            <a href="#">
+              <i class="bi bi-chevron-left"></i>
+            </a>
+          </p>
+          <h5 class="modal_form_header">Mua hàng không cần tài khoản</h5>
+          <div class="form_group">
+            <label for="name">Tên người nhận hàng</label>
+            <input type="text" id="name" name="name" placeholder="Tên người nhận hàng">
+          </div>
+          <div class="form_group">
+            <label for="sdt">Số điện thoại</label>
+            <input type="text" id="sdt" name="sdt" placeholder="Nhập số điện thoại của bạn">
+            <button class="code">Gửi mã</button>
+          </div>
+          <div class="form_group">
+            <label for="mxt">Mã xác thực</label>
+            <input type="text" id="sdt" name="sdt" placeholder="Nhập mã xác thực">
+          </div>
+          <button type="submit" class="btn_buy">Tiến hành mua hàng</button>
+     </div>
+    </div>
+    <div class="right_content">
+      <img src="./image/login-banner.jpg" alt="" class="right_content_img">
+      
+    </div>
+    <button class="btn_close_2">
+      <span>x</span>
+    </button>
+  </div>
+</div>
+
+<script src="./bootstrap.min.js"></script>
+ <script src="./main.js"></script>
+</body>
+</html>
