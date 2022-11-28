@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-              git branch: 'main', url: 'https://github.com/cuchuoind88/jenkin_demo.git'
+              git branch: 'main', url: 'https://github.com/cuchuoind88/lotteria.git'
             }
         }
 
