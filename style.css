@@ -75,7 +75,7 @@
 body
 {
     background-color: #fff;
-    height: 2000px;
+    
 }
 .loteria_nav 
 {
@@ -251,6 +251,7 @@ right: 20px;
 div.main 
 {
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 /*Cate-menu-list*/
 .cate-menu-list
@@ -647,4 +648,115 @@ color: #637582;
     font-size: 15px;
     margin-top: 28px;
     
+}
+/*footer*/
+.info-lotteria
+{
+    
+   
+    padding: 30px 15px 30px 15px;
+    justify-content: space-between;
+    
+}
+.subcrible-for-discount
+{
+    font-weight: 700;
+    font-size: 15px;
+    color: #142F43;
+    text-align: center;
+    margin-bottom: 12px;
+}
+footer
+{
+    padding: 30px 0px 0px 0px;
+    background-color: #ffeae3;
+
+}
+.support,.info,.track
+{
+    list-style: none;
+}
+.track-icon
+{
+    text-decoration: none;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: left 0;
+}
+.face
+{
+    background-image: url(./image/icon-fb-2.svg);
+   
+}
+.insta
+{
+    background-image: url(./image/icon-instagram.svg);
+}
+.zalo
+{
+    background-image: url(./image/icon-zalo.svg);
+}
+.upper
+{
+    display: flex;
+    justify-content: space-between;
+}
+.form-input-footer
+{
+    padding: 8px 6px 8px 6px;
+  
+}
+.form-input-footer input
+{
+    padding: 7px 99px 7px 10px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.btn_submit_footer
+{
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    background-color: var(--primary_lotteria_color);
+    color: #fff;
+    padding: 6px;
+    font-weight: 500;
+    position: relative;
+    left: -3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.logo-footer 
+{
+ text-align: center;
+ margin-bottom: 30px;
+}
+.info,.support,.track
+{
+    padding: 0;
+}
+.footer_item
+{
+    margin-bottom: 8px;
+
+}
+.item-header
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+.copy-right
+{
+    background: #ff9ea2;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px 15px 15px;
+}
+strong
+{
+    margin-right: 5px;
 }
