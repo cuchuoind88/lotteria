@@ -1,6 +1,7 @@
 :root
 {
-    --primary_lotteria_color:#FF5B6A;
+    --primary_lotteria_color:red;
+    /*FF5B6A*/
 }
 ::-webkit-scrollbar {
     width: 10px;
