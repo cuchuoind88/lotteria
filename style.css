@@ -1,6 +1,6 @@
 :root
 {
-    --primary_lotteria_color:black;
+    --primary_lotteria_color:#ff5b6a;
     /*FF5B6A*/
 }
 ::-webkit-scrollbar {
@@ -164,11 +164,11 @@ body
 #header.sticky .nav-item .line{
     display: block;
 }
-#header.sticky li :hover
+/*#header.sticky li :hover
 {
     color: #FF5B6A;
     
-}
+}*/
 .icon_vietnam_dowload
 {
 width: 16px;
@@ -235,7 +235,7 @@ margin-bottom: 2px;
     box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
     position: relative;
 }
-.account-menu>li img
+.menu_item>a img
 {
     position: absolute;
     top:25%;
@@ -760,4 +760,167 @@ footer
 strong
 {
     margin-right: 5px;
+}
+/*Accoung info*/
+.block_infomation
+{   width: 255px;
+    position: absolute;
+    z-index: 20;
+    background-color: #fff;
+    box-shadow: 0 3px 7px rgba( 0 0 0 / 35%) ;
+    border-radius: 15px;
+    right: 0;
+    left: -103px;
+    top: 166%;
+}
+.none 
+{
+    display: none;
+}
+.block_infomation::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    top:-20px;
+    left: 45%;
+}
+.infomation_list
+{   
+    list-style: none;
+    padding:0;
+    padding: 15px;
+}
+
+.infomation_list li 
+{
+    display: flex;
+}
+.infomation_list a 
+{
+    text-decoration: none;
+    color: #666666;
+    padding: 10px 0 10px 32px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+.infomation_list a:hover 
+{   
+    color: #666666;
+}
+.infomation_list_icon
+{
+    position: absolute;
+    left:0px;
+    top: 9px;
+    min-width: 22px;
+}
+.menu_item.drop_menu
+{
+    position:relative;
+
+}
+/*Cart*/
+.cart_content
+{   
+    width: 396px;
+    position:absolute;
+    z-index: 3;
+    background-color: #ffffffff;
+    box-shadow: 0 3px 7px rgba( 0 0 0 / 35%) ;
+    border-radius: 15px;
+    right: -28px;
+    top: 166%;
+}
+.drop_dow_cart
+{
+    position: relative;
+}
+.cart_list ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+.btn_delete_cart_item
+{   margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    float: right;
+    margin-right: 10px;
+    padding: 0;
+    background: url(./image/icon-delete.svg) 0 0 no-repeat;
+}
+.cart_list
+{
+    padding: 15px;
+   
+}
+.cart_item 
+{   padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccc;
+}
+div.field_img_cart
+{
+    float: left;
+    margin-right: 15px;
+}
+div.field_img_cart img
+{
+ width: 60px;
+}
+.field_name
+{
+    margin: 0;
+    color: #142f43;
+    font-weight: 500;
+}
+.total 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.total p 
+{
+    font-weight: bold;
+    padding-left: 15px;
+}
+.total_money
+{
+    display: block;
+    color: var(--primary_lotteria_color);
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+button.pay
+{
+   width:100%;
+   outline: none;
+   border:none;
+   background-color: var(--primary_lotteria_color);
+   padding:19px 15px 19px 15px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: #fff;
+   font-size: 15px;
+   font-weight: bold;
+}
+.cart_content::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    top:-20px;
+    left: 85%;
 }
